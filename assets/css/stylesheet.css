@@ -7,3 +7,39 @@
     font-weight: bold;
 }
 
+#iataCodes {
+    max-height: 50vh;
+    overflow-y:scroll;
+}
+
+#flight-options {
+    max-height: 27vh;
+    overflow-y: scroll;
+}
+
+
+.card {
+    margin-bottom: 10px;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 9px;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    padding: 2px;
+    background-color: rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+  }
+
+  @media (max-width: 775px) {
+    #iataCodes {
+        max-height: 29vh;
+        overflow-y: scroll;
+    }
+    #flight-options {
+        max-height: 40vh;
+        overflow-y: scroll;
+    }
+  }
