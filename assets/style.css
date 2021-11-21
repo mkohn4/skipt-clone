@@ -1,0 +1,49 @@
+/* Body styling */
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+
+    padding: 10px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+    color: #FFF;
+    background-image: url("Background.png");
+    padding: 0; 
+    text-align: center;   
+    background-repeat: no-repeat;
+}
+
+
+.travel{
+    font-size: 30px;
+    color:#FFF;
+    margin-top: 20px;
+}
+
+#iataCodes,
+#flight-options {
+    color: #000;
+}
+
+.btn, #searchBtn{
+    background-color: aqua;
+    color: black;
+}
+
+
+
+@media(max-width: 775px) {
+   main.d-flex {
+    flex-direction:column;
+    width:100%;
+   }
+   main.d-flex div.border-end {
+       border: none !important;
+   }
+
+}
