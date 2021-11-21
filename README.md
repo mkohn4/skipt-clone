@@ -19,4 +19,4 @@ As a vacationer, I want to find the cheapest time to book my vacation, so that I
 And much much more....
 
 ## Screenshot
-url('./assets/skipt_photo.png')
+![screenshot of Skipt](./assets/skipt_photo.png)
